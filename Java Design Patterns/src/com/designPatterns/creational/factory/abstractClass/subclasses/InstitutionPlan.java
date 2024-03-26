@@ -3,7 +3,7 @@ package com.designPatterns.creational.factory.abstractClass.subclasses;
 import com.designPatterns.creational.factory.abstractClass.Plan;
 
 public class InstitutionPlan extends Plan {
-    InstitutionPlan(){
+    public InstitutionPlan(){
         System.out.println("INSTITUTIONAL PLAN");
     }
     @Override

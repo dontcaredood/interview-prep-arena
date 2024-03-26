@@ -3,7 +3,7 @@ package com.designPatterns.creational.factory.abstractClass.subclasses;
 import com.designPatterns.creational.factory.abstractClass.Plan;
 
 public class CommercialPlan extends Plan {
-    CommercialPlan(){
+    public CommercialPlan(){
         System.out.println("COMMERCIAL PLAN");
     }
     @Override
